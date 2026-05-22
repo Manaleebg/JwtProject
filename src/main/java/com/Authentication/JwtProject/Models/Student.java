@@ -52,5 +52,14 @@ private Long student_id;
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+	public College getCollege() {
+		return college;
+	}
+
+	public void setCollege(College college) {
+		this.college = college;
+	}
+	
 }
 
